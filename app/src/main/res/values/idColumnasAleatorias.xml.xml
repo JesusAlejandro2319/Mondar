@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="columnaAleatoria1" type="id"/>
+    <item name="columnaAleatoria2" type="id"/>
+    <item name="columnaAleatoria3" type="id"/>
+    <item name="columnaAleatoria4" type="id"/>
+    <item name="columnaAleatoria5" type="id"/>
+    <item name="columnaAleatoria6" type="id"/>
+    <item name="columnaAleatoria7" type="id"/>
+    <item name="columnaAleatoria8" type="id"/>
+    <item name="columnaAleatoria9" type="id"/>
+    <item name="columnaAleatoria10" type="id"/>
+
+
+</resources>

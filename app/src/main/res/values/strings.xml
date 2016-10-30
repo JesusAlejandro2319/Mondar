@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mondar</string>
+    <string name="info">Info</string>
+    <string name="back">Regresar</string>
+    <string name="menu">Menú</string>
+    <string name="aleatorio">Aleatorio</string>
+    <string name="app_final">Final</string>
+    <string name="random">Random</string>
+    <string name="rand">Randoms</string>
+    <string name="stats">Estadísticas</string>
+    <string name="exit">Salir</string>
+    <string name="primero">Primer Random</string>
+    <string name="segundo">Segundo</string>
+    <string name="una">1 Columna</string>
+    <string name="todas">Todas las columnas</string>
+    <string name="resultado">Resultado</string>
+    <string name="cols">Cols</string>
+
+    <string-array name="numeros">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
