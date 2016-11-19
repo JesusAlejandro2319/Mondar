@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        >
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape">
@@ -26,12 +27,22 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrimerRandom"
+        <activity
+            android:name=".PrimerRandom"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.PRIMERRANDOM" />
 
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResultadoFinal"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.RESULTADOFINAL" />
+
+                <category android:name="android.intent.canvas.resultado" />
             </intent-filter>
         </activity>
     </application>

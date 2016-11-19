@@ -8,6 +8,17 @@
     android:background="@color/colorBase"
     >
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:id="@+id/randoms_boton_inicio"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,4 +36,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:text="@string/primero"/>
+
+
+
 </LinearLayout>

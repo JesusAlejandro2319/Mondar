@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mondar.app.jesusobregon.com.mondar.ResultadoFinal"
+    android:weightSum="1"
+    android:id="@+id/ContenidoCompleto"
+    android:background="@color/colorBase">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primer Aleatorio"
+        android:id="@+id/resultadoFinal_botonRegresar"
+        android:layout_gravity="right"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:id="@+id/resultadoFinal_boton_inicio"
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:id="@+id/circuloResultadoFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/sumaResultadoFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Resultado Final"
+        android:textColor="@color/colorNumeros"
+        android:id="@+id/tituloResultadoFinal"
+        android:layout_below="@+id/resultadoFinal_botonRegresar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textSize="16dp"
+        android:textColor="@color/colorNumeros"
+        android:id="@+id/mensajeResultadoFinal"
+        android:textAlignment="center"
+        android:layout_below="@+id/sumaResultadoFinal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+
+</RelativeLayout>

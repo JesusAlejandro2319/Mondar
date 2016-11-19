@@ -6,6 +6,7 @@
     android:orientation="vertical"
     tools:context="mondar.app.jesusobregon.com.mondar.PrimerRandom"
     android:weightSum="1"
+    android:id="@+id/ContenidoCompleto"
     android:background="@color/colorBase">
 
 
@@ -36,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:gravity="center"
             >
             <TextView
@@ -47,19 +48,7 @@
                 />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:gravity="right"
-            >
-            <ImageButton
-                android:id="@+id/botonInfoRandom"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@android:drawable/ic_dialog_info" />
-        </LinearLayout>
+
 
 
     </LinearLayout>
@@ -80,13 +69,13 @@
             android:stretchColumns="*"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="0dp">
+            android:layout_marginTop="0dp"
+            >
 
             <TableRow
                 android:id="@+id/cabeceraTablaPrimerRandom"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:background="@drawable/alt_color_row"
                 >
 
                 <TextView
@@ -94,6 +83,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -101,6 +91,7 @@
                     android:layout_height="match_parent"
                     android:text="1"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -108,6 +99,7 @@
                     android:layout_height="match_parent"
                     android:text="2"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -115,6 +107,7 @@
                     android:layout_height="match_parent"
                     android:text="3"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -122,6 +115,7 @@
                     android:layout_height="match_parent"
                     android:text="4"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -129,6 +123,7 @@
                     android:layout_height="match_parent"
                     android:text="5"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -136,6 +131,7 @@
                     android:layout_height="match_parent"
                     android:text="6"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -143,6 +139,7 @@
                     android:layout_height="match_parent"
                     android:text="7"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -150,6 +147,7 @@
                     android:layout_height="match_parent"
                     android:text="8"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -157,6 +155,7 @@
                     android:layout_height="match_parent"
                     android:text="9"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
                 <TextView
@@ -164,6 +163,7 @@
                     android:layout_height="match_parent"
                     android:text="10"
                     android:gravity="center"
+                    android:background="@drawable/alt_color_row"
                     />
 
 
@@ -176,9 +176,118 @@
             android:id="@+id/columnasAleatoriasPrimerRandom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="*"
-            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
             >
+
+            <TableRow
+                android:id="@+id/cabeceraTablaColumnasPrimerRandom"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rows"
+                    android:gravity="center"
+                    android:background="@drawable/alt_color_row"
+                    android:width="60dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria1"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria2"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria3"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria4"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria5"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria6"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria7"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria8"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria9"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="52dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/columnaAleatoria10"
+                    android:gravity="center"
+                    android:background="@drawable/row_color"
+                    android:width="60dp"
+                    />
+
+
+            </TableRow>
 
         </TableLayout>
 
@@ -200,10 +309,10 @@
             android:gravity="left"
             >
             <Button
-                android:id="@+id/primerRandom_boton_col"
+                android:id="@+id/primerRandom_boton_otraVez"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1 Col"
+                android:text="Otra vez"
                 />
         </LinearLayout>
 
@@ -215,10 +324,10 @@
             android:gravity="center"
             >
             <Button
-                android:id="@+id/primerRandom_boton_cols"
+                android:id="@+id/primerRandom_boton_detener"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Todas las columnas"
+                android:text="Detener random"
                 />
         </LinearLayout>
 
@@ -233,7 +342,7 @@
                 android:id="@+id/primerRandom_boton_randomFinal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Random Final"
+                android:text="Resultado"
                 />
         </LinearLayout>
 

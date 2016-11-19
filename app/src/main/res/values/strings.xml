@@ -14,7 +14,7 @@
     <string name="una">1 Columna</string>
     <string name="todas">Todas las columnas</string>
     <string name="resultado">Resultado</string>
-    <string name="cols">Cols</string>
+    <string name="rows">Filas</string>
 
     <string-array name="numeros">
         <item>1</item>
