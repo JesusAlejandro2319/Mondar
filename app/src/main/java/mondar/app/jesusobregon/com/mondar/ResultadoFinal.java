@@ -42,7 +42,7 @@ public class ResultadoFinal extends AppCompatActivity implements View.OnClickLis
                 cantidadFinal.setText(String.valueOf(suma));
                 cantidadFinal.setTextColor(ContextCompat.getColor(this, R.color.colorNumeros));
                 if(suma == 69){
-                    mensajeRF.setText("'El puso puntos suspensivos, ella cansada, le borró dos' ¿Y si les pides el punto que les sobro? No creo que lo vayan a necesitar.");
+                    mensajeRF.setText("'El puso puntos suspensivos, ella cansada, le borró dos.' ¿Y si les pides el punto que les sobro? No creo que lo vayan a necesitar.");
                 }
                 else {
                     mensajeRF.setText("¡Sigue particicipando!");
