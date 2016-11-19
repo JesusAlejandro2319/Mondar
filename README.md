@@ -1,2 +1,2 @@
 # Mondar
-Bienvenido seas a la Beta de Mondar, aplicación para obtener números aleatorios.
+Bienvenido seas a la versión de Mondar, aplicación para obtener números aleatorios.
